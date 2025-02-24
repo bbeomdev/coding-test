@@ -1,2 +1,3 @@
-data = list(map(int, input().split()))
-print(data[0] + data[1])
+import sys
+a, b = map(int, input().split())
+print(a+b)
